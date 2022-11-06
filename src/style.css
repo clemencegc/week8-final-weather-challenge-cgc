@@ -1,12 +1,12 @@
 body {
   font-family: arial, sans-serif;
-  background-color: rgba(243, 249, 248, 0.3);
+  background-image: url("background-sky.jpg");
 }
 
 h1 {
-  color: rgba(59, 70, 65, 0.467);
-  font-size: 24px;
-  font-weight: 100;
+  color: #488b8f;
+  font-size: 28px;
+  font-weight: 200;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -25,9 +25,9 @@ li {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #488b8f;
-  border-radius: 5px;
-  background-color: rgba(173, 210, 201, 0.2);
+  border: 1px solid #adc2c3;
+  border-radius: 8px;
+  background-color: rgba(231, 232, 232, 0.487);
 }
 
 .weather-app-wrapper {

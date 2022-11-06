@@ -39,8 +39,8 @@ li {
 }
 .icon {
   margin-right: 8px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 .temperature {
   color: #488b8f;
@@ -51,13 +51,14 @@ li {
 .units {
   color: #488b8f;
   position: relative;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 600;
 }
 
 .weather-temperature {
-  color: #808b97;
+  color: #488b8f;
   cursor: default;
+  font-size: 50px;
 }
 
 .btn {

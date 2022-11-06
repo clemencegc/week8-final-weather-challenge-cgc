@@ -1,26 +1,25 @@
 body {
-  font-family: arial, sans-serif;
-  background-image: url("background-sky.jpg");
+  font-family: "Questrial", sans-serif;
+  background-image: url("sunlight.jpg");
 }
 
 h1 {
-  color: #488b8f;
-  font-size: 28px;
-  font-weight: 200;
-  line-height: 28px;
-  margin-bottom: 0;
+  color: #556bad;
+  font-size: 58px;
+  line-height: 38px;
+  margin-bottom: 5px;
 }
 
 ul {
-  margin: 0;
+  margin: 10;
   padding: 0;
 }
 li {
   list-style: none;
   color: rgba(59, 70, 65, 0.467);
-  font-size: 16px;
+  font-size: 18px;
   text-transform: capitalize;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 19px;
 }
 .weather-app {
@@ -35,7 +34,7 @@ li {
   margin: 30px auto;
 }
 .overview {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .icon {
   margin-right: 8px;
@@ -43,27 +42,27 @@ li {
   width: 200px;
 }
 .temperature {
-  color: #488b8f;
+  color: #556bad;
   font: weight 400px;
   line-height: 1;
 }
 
 .units {
-  color: #488b8f;
+  color: #556bad;
   position: relative;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 600;
 }
 
 .weather-temperature {
-  color: #488b8f;
+  color: #556bad;
   cursor: default;
-  font-size: 50px;
+  font-size: 65px;
 }
 
 .btn {
-  background-color: cadetblue;
-  border: cadetblue;
+  background-color: #556bad;
+  border: #556bad;
 }
 
 .weather-forecast {
@@ -72,14 +71,22 @@ li {
 }
 
 .weather-forecast-date {
-  font-size: 16px;
-  color: black;
+  font-size: 18px;
+  color: #556bad;
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
-  color: black;
+  font-size: 14px;
+  color: #556bad;
 }
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+.humidityWind {
+  margin-top: 3px;
+  position: relative;
+}
+#sign {
+  color: azure;
+  font-size: 12px;
 }

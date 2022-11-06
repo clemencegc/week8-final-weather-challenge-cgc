@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background-color: rgba(243, 249, 248, 0.3);
 }
 
 h1 {
@@ -38,8 +39,8 @@ li {
 }
 .icon {
   margin-right: 8px;
-  height: 85px;
-  width: 85px;
+  height: 100px;
+  width: 100px;
 }
 .temperature {
   color: #488b8f;
@@ -54,13 +55,11 @@ li {
   font-weight: 600;
 }
 
-.weather-temperature.active {
-  color: black;
+.weather-temperature {
+  color: #808b97;
   cursor: default;
 }
-.weather-temperature.active:hover {
-  text-decoration: none;
-}
+
 .btn {
   background-color: cadetblue;
   border: cadetblue;

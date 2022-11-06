@@ -26,7 +26,7 @@ li {
   padding: 20px;
   border: 1px solid #488b8f;
   border-radius: 5px;
-  background-color: #add2c9;
+  background-color: rgba(173, 210, 201, 0.2);
 }
 
 .weather-app-wrapper {
